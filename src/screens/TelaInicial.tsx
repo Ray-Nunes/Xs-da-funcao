@@ -27,7 +27,7 @@ export default function TelaInicio(){
             })
 
             const data = await response.json();
-            setResultado(`Resultado: ${data.resultado}`);
+            setResultado(`Resultado: ${data.valorX}`);
 
         } catch(error) {
             console.log("Erro no serividor: ", error);
